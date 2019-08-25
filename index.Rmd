@@ -1,0 +1,156 @@
+--- 
+title: "International Relations"
+author: "Sanghoon Park"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+header-includes:
+  - \usepackage{kotex}
+output: 
+  pdf_document: 
+    latex_engine: xelatex
+    fig_height: 6
+    fig_width: 10
+    toc: no
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+mainfont: NanumGothic
+urlcolor: blue
+---
+
+# Prerequisites
+
+이 내용은 2019년 University of South Carolina 정치학과의 가을학기 학부 국제관계(International Relations) 강의 내용을 요약 및 정리하여 작성한 것이다. 국제관계 3시간 강의 중 1.5H를 TA로 진행하게 되어 강의에 필요한 내용들을 준비하던 중, 국제관계/국제정치에 관심을 가진 사람들에게는 꽤 도움이 될 수도 있겠다는 생각이 들어 정리하기로 했다.
+
+한국에서 국제관계를 공부하는 사람들의 동기를 과감하게 분류한다면 크게 세 가지로 볼 수 있을 것 같다. 첫째, 외교관 혹은 그와 유사한 직렬의 공무직을 지원하고 싶기 때문이다. 둘째, 국제관계를 공부해야하는 학문 분과에 소속되어 있기 때문이다. 학부, 대학원을 막론하고. 마지막으로는 국제관계라는 분야에 흥미를 느낀 경우이다. 즉, 의무/전공/흥미 이 세 가지가 국제관계를 학문적으로 공부하고자 하는 사람들의 주요 동기라고 할 수 있다.
+
+그런데 한국에서는 다른 나라에서 찾아보기 힘든 요상한 제도가 있는데, 바로 국립외교원이다. 과거에는 외무고시였고 이제는 국립외교원. 몇 년을 신림동 혹은 그에 준하는 곳에서 공부를 하다가 1차와 2차, 그리고 3차에 이르는 검증을 통과하면 그 사람은 1년의 국립외교원 연수생이 되고, 최종적으로는 5급 공채 외교관으로 임용된다.[^1] 내가 문제라고 생각하는 지점은, 의무로 국제관계를 공부하다보니 시험에 특화된 교재들이 존재하고, 그 교재에 맞춰서[^2] 정형화된 내용들을 숙달하는 것이 핵심이다. 즉, "어느 정도 답이 정형화된" 국제관계를 공부하거나 혹은 "출제될 법한 사례와 이론들"을 위주로 공부하게 되는 것이다.
+
+  + 여기서 질문. 과연 국제관계란 그렇게 틀에 맞추어서 볼 수 있는 것일까?
+  
+  + 본인도 석사를 진학할 무렵에는 IPE와 CPE 사이에서 갈팡질팡했던 사람으로, 국제관계에 조금이나마 매료된 바가 있었다. 최종적으로는 CPE를 선택하기는 했다. 내가 IPE를 포기한 이유는 여러가지가 있겠지만 그 중 하나는 IR는 너무나 많은 것들을 두루두루 섭렵해야 한다는 데에서 오는 부담감이 있었다.
+  
+  + 이게 무슨 소리냐면, IR은 기본적으로 그 행위자가 누구인지(국가? 국가에 속한 단체? 개인? 국가를 망라한 국제단체? 등등)에 대한 철학적 고민도 해야하고, 국가 간 유사성과 차이성을 이해하기 위해 비교정치의 일부 분야도 이해해야 하며, 혹은 체계라고 하는 단순 국가 간의 관계를 넘어선 그 무언가에 대해서도 공부해야 한다. 
+  
+  + 동시에 다른 정치학 분야들에서 진행되고 있는 것처럼, 데이터에 근거한 주장을 해야 설득력이 있기 때문에 높은 수준의 방법론도 요구되고 있는 실정이다.
+  
+  + 상대적으로 정치학에서는 역사가 짧은 분야임에도 불구하고 많은 관심으로 정형화된 이론들이 제기되고 있으나, 엄밀하게 말하면 이론이라기 보다는 여러 가설들이라고 하는 것이 더 타당할 듯하다. 아무튼, 이런 가설들이 미처 검증되기도 전에 새로운 유형의 사건들이 세계 이곳 저곳엣 터져나오고 있다.
+  
+우리나라가 무슨 일이 터지건 압도적인 역량으로 그것을 관리할 수 있는 국가가 아니라면, 우리는 세계 각지에서 벌어지는 일들에 기민하게 대응해야할 필요가 있다. 그런데 과연 우리는 그런 제도를 제대로 갖추고 있을까?
+
+뭐 이런 생각들을 하며, 의무에 따라 공부하는 국제관계는 어차피 정해진 텍스트들이 있고 외울 이론들이 상대적으로 제약적이니 만큼 굳이 별개의 포스팅을 할 필요는 없을 것 같다. 다만, 이렇게 의무로 공부해야 하는 경우가 아니라 전공 또는 흥미로 공부하는 사람들의 경우에는 조금 더 자유롭고 다양한 관점에서 논의되는 IR을 살펴볼 기회가 있으면 좋지 않을까 하는 생각이 들었다.
+
+내 블로그에도 우철구 교수님과 박건영 교수님의 교재, 그 이외에도 기타 저자들의 논문들을 이리저리 짜깁기하여 정리한 자료들이 있지만... 시간이 지나고 다시 읽어보니 정말 재미가 없다. 나도 정형화된 이론적 틀에 집착한 공부를 했었던 것 같다.
+
+  + 이번 학기 강의하게 된 국제관계 강의는 미국 학부생들을 대상으로 토론이 가능한 위주의 수업을 운영하는 것이 교수님의 목표다.
+  
+  + 따라서 개별 이론들을 깊게 파고들기 보다는 주제별로 다양하게 다룰 수 있는 것을 목적으로 하고 있다.
+  
+  + 동시에 국제관계 이론들, 현상들만이 아니라 국제관계의 수준에서 나타나는 다양한 행위들과 그 행위들의 상호작용을 분석하기 위한 틀로 기본적인 게임이론도 소개하고 있다.
+  
+주별로 업데이트되다 보니 아마 초기 방향(실라버스)과는 조금씩 달라질 수도 있을 것 같기는 한데, 한 번 강의하고 나서 되짚어보며 다시 한글로 정리하면 모자랐던 내용도 더할 수 있을 것 같았다. 재밌을지는 모르겠지만, 읽는 사람들에게도 조금은 최신 자료니 도움이 되지 않을까 (2019년 8월의 따끈한 신상입니다)? 그리고 다루는 교재도 내용이 괜찮은 데 반해 한국에서는 아직 번역된 것 같지는 않다.[^3] 새로운 관점에서 국제관계를 살펴볼 수 있는 좋은 기회가 될 수 있을 것이라고 생각한다.
+
+## 주요 자료
+
+책 한 권만 보는 것은 아니고 논문도 보고 다른 책들도 여럿 보는데, 일단 교수님이 추천한 주교재는 다음과 같다. 이외로 추가될 수 있는 자료들은 별도로 포스팅과 함께 기재해놓을 생각이다.
+
++ Frieden, Jeffrey, David Lake, and Kenneth Schultz, 2015. _World Politics: Interests, Interactions, Institutions - Fourth Edition_. W.W. Norton & Company: New York, London (이하 FLS).
+  
+## 주제
+
+1. 들어가며 (Introduction)
+  + FLS Introduction
+  + Snyder. 2004. "One World, Rival Theories."
+  
+2. 국제관계란 무엇인가? (What is International Relations?)
+  + FLS Ch.2.
+  + Ikenberry. Ch.2. "Varieties of Order: Balance of Power, Hegemonic, and Constitutional."
+
+3. 국제적 상호작용의 게임 (Games of International Interaction)
+  + FLS "Primer on Game Theory." [Special Topic]
+
+4. 죄수의 딜레마 극복하기 (Overcoming the Prisoner’s Dilemma)
+  + U.N. Charter.
+  + Stewart, P. 2014. "The Unruled World: The Case for Good Enough Global Governance."
+  
+5. 국내정치, 주권, 그리고 국제관계 (Domestic Politics, Sovereignty, and IR)
+  + Putnam. 1988. "Diplomacy and Domestic Politics: The Logic of Two-Level Games."
+  + Krasner, S. 2004. "Sharing Sovereignty: New Institutions for Collapsed and Failing States."
+  
+6. 집단 안보 (Collective Security)
+  + FLS. Ch.5. 
+  + Goldgeier. 2010. "The Future of NATO."
+
+7. 왜 전쟁인가? 거래/협상하기 (Why war? Bargaining)
+  + FLS Ch.3.
+  + Lake, D. 2011. "Two Cheers for Bargaining Theory: Assessing Rationalist Explanations of the Iraq War?"
+  + Fearon. 1995. "Rationalist Explanations for War."
+
+8. 핵 확산과 대량살상무기 (Nuclear Proliferation and WMD)
+  + FLS Ch.14.
+  + Joffe, J. 2011. "Less Than Zero."
+  + "Getting Though on North Korea." 2017. *Foreign Affairs*.
+
+9. 국가 내부의 분쟁 (Intrastate Conflict)
+  + FLS Ch.6, pp.236-268.
+  + Denny, E. and Walter, B. 2014. "Ethnicity and Civil War."
+  + Walter, B. 2009. "Bargaining Failures and CivilWar."
+  
+10. 테러리즘 (Terrorism)
+  + FLS Ch.6, pp.268-293.
+  + Fortna, V.P. 2015. "Do Terrorists Win? Rebels’ Use of Terrorism and Civil War Outcomes."
+
+11. 내전에 관한 현행 연구들 (Current Research in Civil War)
+  + Thomas, J.L. and Bond, K. 2015. "Women’s Participation in Violent Political Organizations."
+  + Kalyvas, S. 2015. "How Civil Wars Help Explain Organized Crime – and How They Do Not."
+  
+12. 국내 분쟁의 해결 (Intrastate Conflict Resolution)
+  + United Nations -“Guidance for Effective Mediation”
+  + Beardsley, K. 2008. "Agreement without Peace? International Mediation and Time Inconsistency Problems?"
+
+13. 개임과 글로벌 집단행동 (Intervention and Global Collective Action)
+  + FLS Ch.11, pp.462-479.
+  + Bellamy, A. 2008. "The Responsibility to Protect and the Problem of Military Intervention."
+  + "[The 'Responsibility To Protect' In Syria And Beyond](https://www.npr.org/2012/02/06/146474734/the-worlds-responsibility-to-protect)"
+  + Power, S. "[Bystanders to Genocide: Why the
+U.S. Let the Rwandan Genocide Happen](https://www.theatlantic.com/magazine/archive/2001/09/bystanders-to-genocide/304571/)."
+  
+14. 인권 (Human Rights)
+  + FLS Ch.12.
+  
+15. 경제제재 (Economic Sanctions): TBD
+
+16. 국제정치경제 개관 (Overview of International Political Economy)
+  + FLS Ch.7, pp.294-316.
+  + FLS Ch.8, pp.346-360.
+  + FLS Ch.9, pp.389-403.
+
+17. 무역과 비교우위 (Trade and Comparative Advantage)
+  + FLS Ch.7, 340-345.
+  + Council on Foreign Relations. 2015. "The Future of U.S. Trade Policy."
+  + Irwin, D. 2016. "The Truth on Trade: What Critics Get Wrong About the Global Economy."
+
+18. 국제 경제제도 (International Economic Institutions)
+  + FLS Ch.7, pp.324-334.
+  + FLS Ch.8, pp.360-368.
+  + Drezner, D. 2012. "The Irony of Global Economic Governance: The System Worked."
+
+19. 해외직접투자와 다국적기업들 (Foreign Direct Investment and Multinational Corporations)
+  + FLS Ch.8, pp.371-383.
+  + Pandya, S. 2016. "Political Economy of Foreign Direct Investment: Globalized Production in the Twenty-First Century."
+
+20. 통화와 통화정책 (Currency and Monetary Policy): TBD
+
+21. 해외원조와 개발 (Foreign Aid and Development)
+  + FLS Ch.10, pp.424-453.
+  + Radelet, S. 2016. "Prosperity Rising: The Success of Global Development, and How to Keep it Going.?"
+
+22. 기후변화, 식량불안, 그리고 빈곤 (Climate Change, Food Insecurity, and Poverty)
+  + FLS Ch.13, pp.540-568.
+  + Hardin, G. 1968. "The Tragedy of the Commons."
+
+
+[^1]: 약간의 절차 상의 오류가 있을 수는 있지만 이 정도가 아마 외시를 준비하지 않는 일반 사람들이 알고 있는 외시의 개요라고 생각한다.
+[^2]: 아마도 그 교재들이 합격자들의 경험 등을 바탕으로 출제되는 경향을 반영하여 '나올 법한 것들'을 정리해놓은 것이기 때문일터다.
+[^3]: 인터넷 교보문고 기준. 검색일 2019년 8월 25일.
