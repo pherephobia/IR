@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.8.22)  25 AUG 2019 13:33
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.8.22)  27 AUG 2019 15:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1726,51 +1726,82 @@ Package microtype Info: Character `\quotedblbase ' is missing
 (microtype)             Ignoring protrusion settings for this character.
 [4] [5] [6]
 Chapter 2.
+LaTeX Font Info:    Font shape `TU/NanumGothic(0)/m/it' will be
+(Font)              scaled to size 6.896pt on input line 591.
+Package microtype Info: Character `\quotesinglbase ' is missing
+(microtype)             in font `\TU/NanumGothic(0)/m/it/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotedblbase ' is missing
+(microtype)             in font `\TU/NanumGothic(0)/m/it/8'.
+(microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/NanumGothic(0)/bx/n' will be
-(Font)              scaled to size 10.344pt on input line 579.
+(Font)              scaled to size 10.344pt on input line 597.
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 597.
+
 LaTeX Font Info:    Font shape `TU/NanumGothic(0)/bx/n' will be
-(Font)              scaled to size 8.62pt on input line 635.
+(Font)              scaled to size 8.62pt on input line 607.
+File: ./Amazon_Fire.png Graphic file (type bmp)
+<./Amazon_Fire.png>
+
+Underfull \vbox (badness 2865) has occurred while \output is active []
+
 [7
 
 ]
+File: IR_files/figure-latex/plot1_pic-1.pdf Graphic file (type pdf)
+<use IR_files/figure-latex/plot1_pic-1.pdf>
+File: IR_files/figure-latex/plot2_pic-1.pdf Graphic file (type pdf)
+<use IR_files/figure-latex/plot2_pic-1.pdf>
+[8] [9]
+File: ./Territory.png Graphic file (type bmp)
+<./Territory.png>
+[10] [11] [12] [13]
 LaTeX Font Info:    Font shape `TU/NanumGothic(0)/m/n' will be
-(Font)              scaled to size 10.34396pt on input line 682.
-[8] [9] [10] [11] [12
+(Font)              scaled to size 10.34396pt on input line 1189.
+[14] [15]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14.4> on input line 1546.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[16] [17] [18] [19] [20
 
 ]
 Chapter 3.
-[13] [14
+[21] [22
 
 ]
 Chapter 4.
-[15] [16
+[23] [24
 
 ]
 Chapter 5.
-[17] [18
+[25] [26
 
 ]
 Chapter 6.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1174.
-[19]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1174.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1886.
+[27]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1886.
 (./IR.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1174.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1174.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1886.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1886.
 
 Package rerunfilecheck Info: File `IR.out' has not changed.
-(rerunfilecheck)             Checksum: D263B2342AC2BD6C9B2BEA9F2B0D02DB.
+(rerunfilecheck)             Checksum: D14861B9C9F3EC8BC2FF13F77C8EE761.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 26064 strings out of 492962
- 450479 string characters out of 6136967
- 578214 words of memory out of 5000000
- 29818 multiletter control sequences out of 15000+600000
- 553148 words of font info for 73 fonts, out of 8000000 for 9000
+ 26107 strings out of 492962
+ 451240 string characters out of 6136967
+ 591425 words of memory out of 5000000
+ 29855 multiletter control sequences out of 15000+600000
+ 557157 words of font info for 77 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 51i,9n,126p,799b,2521s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 51i,8n,126p,799b,2521s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on IR.pdf (19 pages).
+Output written on IR.pdf (27 pages).
