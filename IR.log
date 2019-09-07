@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.8.22)  27 AUG 2019 16:16
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.8.22)  6 SEP 2019 23:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -811,42 +811,70 @@ File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 35.
 Package hyperref Info: Option `breaklinks' set `true' on input line 35.
-(c:/texlive/2018/texmf-dist/tex/latex/tools/longtable.sty
+(c:/texlive/2018/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+(c:/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: xetex.def on input line 147.
+(c:/texlive/2018/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
+) (c:/texlive/2018/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+)) (c:/texlive/2018/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2008/02/07
+
+Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
+<2008/02/07> (tvz)
+\FV@CodeLineNo=\count282
+\FV@InFile=\read2
+\FV@TabBox=\box44
+\c@FancyVerbLine=\count283
+\FV@StepNumber=\count284
+\FV@OutFile=\write3
+) (c:/texlive/2018/texmf-dist/tex/latex/framed/framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip53
+\fb@frw=\dimen160
+\fb@frh=\dimen161
+\FrameRule=\dimen162
+\FrameSep=\dimen163
+) (c:/texlive/2018/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
-\LTleft=\skip53
-\LTright=\skip54
-\LTpre=\skip55
-\LTpost=\skip56
-\LTchunksize=\count282
-\LTcapwidth=\dimen160
-\LT@head=\box44
-\LT@firsthead=\box45
-\LT@foot=\box46
-\LT@lastfoot=\box47
-\LT@cols=\count283
-\LT@rows=\count284
-\c@LT@tables=\count285
-\c@LT@chunks=\count286
+\LTleft=\skip54
+\LTright=\skip55
+\LTpre=\skip56
+\LTpost=\skip57
+\LTchunksize=\count285
+\LTcapwidth=\dimen164
+\LT@head=\box45
+\LT@firsthead=\box46
+\LT@foot=\box47
+\LT@lastfoot=\box48
+\LT@cols=\count286
+\LT@rows=\count287
+\c@LT@tables=\count288
+\c@LT@chunks=\count289
 \LT@p@ftn=\toks24
 ) (c:/texlive/2018/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2016/04/27 v1.618033 publication quality tables
-\heavyrulewidth=\dimen161
-\lightrulewidth=\dimen162
-\cmidrulewidth=\dimen163
-\belowrulesep=\dimen164
-\belowbottomsep=\dimen165
-\aboverulesep=\dimen166
-\abovetopsep=\dimen167
-\cmidrulesep=\dimen168
-\cmidrulekern=\dimen169
-\defaultaddspace=\dimen170
-\@cmidla=\count287
-\@cmidlb=\count288
-\@aboverulesep=\dimen171
-\@belowrulesep=\dimen172
-\@thisruleclass=\count289
-\@lastruleclass=\count290
-\@thisrulewidth=\dimen173
+\heavyrulewidth=\dimen165
+\lightrulewidth=\dimen166
+\cmidrulewidth=\dimen167
+\belowrulesep=\dimen168
+\belowbottomsep=\dimen169
+\aboverulesep=\dimen170
+\abovetopsep=\dimen171
+\cmidrulesep=\dimen172
+\cmidrulekern=\dimen173
+\defaultaddspace=\dimen174
+\@cmidla=\count290
+\@cmidlb=\count291
+\@aboverulesep=\dimen175
+\@belowrulesep=\dimen176
+\@thisruleclass=\count292
+\@lastruleclass=\count293
+\@thisrulewidth=\dimen177
 ) (c:/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 (c:/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
@@ -857,11 +885,9 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: xetex.def on input line 99.
-(c:/texlive/2018/texmf-dist/tex/latex/graphics-def/xetex.def
-File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
-))
-\Gin@req@height=\dimen174
-\Gin@req@width=\dimen175
+)
+\Gin@req@height=\dimen178
+\Gin@req@width=\dimen179
 ) (c:/texlive/2018/texmf-dist/tex/latex/oberdiek/grffile.sty
 Package: grffile 2017/06/30 v1.18 Extended file name support for graphics (HO)
 Package grffile Info: Option `multidot' is set to `true'.
@@ -872,9 +898,9 @@ Package grffile Info: \Gin@ii of package `graphicx' fixed on input line 494.
 Package: parskip 2001/04/09 non-zero parskip adjustments
 ) (c:/texlive/2018/texmf-dist/tex/latex/titling/titling.sty
 Package: titling 2009/09/04 v2.1d maketitle typesetting
-\thanksmarkwidth=\skip57
-\thanksmargin=\skip58
-\droptitle=\skip59
+\thanksmarkwidth=\skip58
+\thanksmargin=\skip59
+\droptitle=\skip60
 ) (c:/texlive/2018/texmf-dist/tex/latex/cjk-ko/kotex.sty
 Package: kotex 2015/04/19 v1.6 Korean TeX (ko.TeX)
 (c:/texlive/2018/texmf-dist/tex/latex/kotex-utf/kotex.cfg) (c:/texlive/2018/tex
@@ -916,10 +942,10 @@ Reading Unicode east Asian character class data
 \XKlatinnumber=\XeTeXcharclass22
 \XKhanjacombining=\XeTeXcharclass23
 \XK@toks@=\toks25
-\XKdotemphbox=\box48
+\XKdotemphbox=\box49
 ) (c:/texlive/2018/texmf-dist/tex/xetex/xetexko/xetexko-josa.sty
 Package: xetexko-josa 2018/04/06 v2.18 Auto-josa for XeTeX-ko
-\@josa=\count291
+\@josa=\count294
 ) (c:/texlive/2018/texmf-dist/tex/xetex/xetexko/xetexko-font.sty
 Package: xetexko-font 2018/08/08 v2.21 LaTeX Font commands for XeTeX-ko
 .................................................
@@ -1029,37 +1055,38 @@ Package: xetexko-font 2018/08/08 v2.21 LaTeX Font commands for XeTeX-ko
 .................................................
 ) (c:/texlive/2018/texmf-dist/tex/xetex/xetexko/xetexko-vertical.sty
 Package: xetexko-vertical 2018/04/06 v2.18 Vertical environment for XeTeX-ko
-\verticalem=\dimen176
+\verticalem=\dimen180
 ) (c:/texlive/2018/texmf-dist/tex/latex/cjk-ko/kolabels-utf.sty
 Package: kolabels-utf 2015/03/20 v1.5 UTF-8 Hangul item labels
 ))) (./IR.aux)
 \openout1 = `IR.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 95.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 95.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 135.
+LaTeX Font Info:    ... okay on input line 135.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 135.
+LaTeX Font Info:    ... okay on input line 135.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 135.
+LaTeX Font Info:    ... okay on input line 135.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 135.
+LaTeX Font Info:    ... okay on input line 135.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 135.
+LaTeX Font Info:    ... okay on input line 135.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 135.
+LaTeX Font Info:    ... okay on input line 135.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 135.
+LaTeX Font Info:    ... okay on input line 135.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 135.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 135.
+
 (c:/texlive/2018/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Info: Redefining \microtypecontext on input line 95.
+LaTeX Font Info:    ... okay on input line 135.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 135.
+LaTeX Font Info:    ... okay on input line 135.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 135.
+LaTeX Font Info:    ... okay on input line 135.
+LaTeX Info: Redefining \microtypecontext on input line 135.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using protrusion set `basicmath'.
 Package microtype Info: No adjustment of tracking.
@@ -1511,31 +1538,21 @@ Package microtype Info: Character `\quotedblbase ' is missing
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box49
-(c:/texlive/2018/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
-LaTeX Info: Redefining \color on input line 86.
-(c:/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package color Info: Driver file: xetex.def on input line 147.
-(c:/texlive/2018/texmf-dist/tex/latex/graphics/dvipsnam.def
-File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
-))
-Package hyperref Info: Link coloring ON on input line 95.
+\AtBeginShipoutBox=\box50
+Package hyperref Info: Link coloring ON on input line 135.
 (c:/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (c:/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count292
+\c@section@level=\count295
 )
-LaTeX Info: Redefining \ref on input line 95.
-LaTeX Info: Redefining \pageref on input line 95.
-LaTeX Info: Redefining \nameref on input line 95.
+LaTeX Info: Redefining \ref on input line 135.
+LaTeX Info: Redefining \pageref on input line 135.
+LaTeX Info: Redefining \nameref on input line 135.
 (./IR.out) (./IR.out)
-\@outlinefile=\write3
-\openout3 = `IR.out'.
+\@outlinefile=\write4
+\openout4 = `IR.out'.
 
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmss' (encoding: TU).
@@ -1592,10 +1609,10 @@ Package microtype Info: Loading generic protrusion settings for font family
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \korsansfont with sig. '' on line 95.
+. Defining command \korsansfont with sig. '' on line 135.
 .................................................
 LaTeX Font Info:    Font shape `TU/NanumGothic(1)/m/n' will be
-(Font)              scaled to size 8.62pt on input line 95.
+(Font)              scaled to size 8.62pt on input line 135.
 Package microtype Info: Character `\quotesinglbase ' is missing
 (microtype)             in font `\TU/NanumGothic(1)/m/n/10'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -1605,11 +1622,11 @@ Package microtype Info: Character `\quotedblbase ' is missing
 \symmathhangul=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `mathhangul' in version `bold'
 (Font)                  TU/NanumGothic(0)/m/n --> TU/NanumGothic(0)/bx/n on inp
-ut line 95.
+ut line 135.
 LaTeX Font Info:    Font shape `TU/NanumGothic(0)/m/n' will be
-(Font)              scaled to size 17.87787pt on input line 96.
+(Font)              scaled to size 17.87787pt on input line 136.
 LaTeX Font Info:    Font shape `TU/NanumGothic(0)/m/n' will be
-(Font)              scaled to size 10.344pt on input line 96.
+(Font)              scaled to size 10.344pt on input line 136.
 Package microtype Info: Character `\quotesinglbase ' is missing
 (microtype)             in font `\TU/NanumGothic(0)/m/n/12'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -1618,10 +1635,10 @@ Package microtype Info: Character `\quotedblbase ' is missing
 (microtype)             Ignoring protrusion settings for this character.
 
 LaTeX Font Warning: Font shape `TU/NanumGothic(0)/m/it' undefined
-(Font)              using `TU/NanumGothic(0)/m/n' instead on input line 96.
+(Font)              using `TU/NanumGothic(0)/m/n' instead on input line 136.
 
 LaTeX Font Info:    Font shape `TU/NanumGothic(0)/m/it' will be
-(Font)              scaled to size 10.344pt on input line 96.
+(Font)              scaled to size 10.344pt on input line 136.
 Package microtype Info: Character `\quotesinglbase ' is missing
 (microtype)             in font `\TU/NanumGothic(0)/m/it/12'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -1634,17 +1651,17 @@ Package microtype Info: Character `\quotedblbase ' is missing
 ]
 
 LaTeX Font Warning: Font shape `TU/NanumGothic(0)/m/sl' undefined
-(Font)              using `TU/NanumGothic(0)/m/n' instead on input line 99.
+(Font)              using `TU/NanumGothic(0)/m/n' instead on input line 139.
 
 [2
 
 ]
 Chapter 1.
 LaTeX Font Info:    Font shape `TU/NanumGothic(0)/bx/n' will be
-(Font)              scaled to size 17.87787pt on input line 99.
+(Font)              scaled to size 17.87787pt on input line 139.
 LaTeX Font Info:    Font shape `TU/NanumGothic(0)/bx/n' will be
-(Font)              scaled to size 21.44655pt on input line 99.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 119.
+(Font)              scaled to size 21.44655pt on input line 139.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 159.
 
 (c:/texlive/2018/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1652,45 +1669,45 @@ File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 File: mt-LatinModernRoman.cfg 2013/03/13 v1.0 microtype config. file: Latin Mod
 ern Roman (RS)
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 119.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 159.
 
 (c:/texlive/2018/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 119
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 159
 .
 (c:/texlive/2018/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 119
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 159
 .
 (c:/texlive/2018/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 119.
+(Font)              <10> on input line 159.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 119.
+(Font)              <7> on input line 159.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 119.
-LaTeX Font Info:    Try loading font information for U+msa on input line 119.
+(Font)              <5> on input line 159.
+LaTeX Font Info:    Try loading font information for U+msa on input line 159.
 (c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (c:/texlive/2018/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 119.
+LaTeX Font Info:    Try loading font information for U+msb on input line 159.
 (c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (c:/texlive/2018/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `TU/NanumGothic(0)/m/n' will be
-(Font)              scaled to size 6.034pt on input line 119.
+(Font)              scaled to size 6.034pt on input line 159.
 LaTeX Font Info:    Font shape `TU/NanumGothic(0)/m/n' will be
-(Font)              scaled to size 4.31pt on input line 119.
+(Font)              scaled to size 4.31pt on input line 159.
 LaTeX Font Info:    Font shape `TU/NanumGothic(0)/m/n' will be
-(Font)              scaled to size 6.896pt on input line 121.
+(Font)              scaled to size 6.896pt on input line 161.
 Package microtype Info: Character `\quotesinglbase ' is missing
 (microtype)             in font `\TU/NanumGothic(0)/m/n/8'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -1698,18 +1715,18 @@ Package microtype Info: Character `\quotedblbase ' is missing
 (microtype)             in font `\TU/NanumGothic(0)/m/n/8'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 121.
+(Font)              <8> on input line 161.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 121.
+(Font)              <6> on input line 161.
 LaTeX Font Info:    Font shape `TU/NanumGothic(0)/m/n' will be
-(Font)              scaled to size 5.172pt on input line 121.
+(Font)              scaled to size 5.172pt on input line 161.
 [3]
 LaTeX Font Info:    Font shape `TU/NanumGothic(0)/m/n' will be
-(Font)              scaled to size 12.41278pt on input line 196.
+(Font)              scaled to size 12.41278pt on input line 236.
 LaTeX Font Info:    Font shape `TU/NanumGothic(0)/bx/n' will be
-(Font)              scaled to size 12.41278pt on input line 196.
+(Font)              scaled to size 12.41278pt on input line 236.
 LaTeX Font Info:    Font shape `TU/NanumGothic(0)/m/it' will be
-(Font)              scaled to size 8.62pt on input line 206.
+(Font)              scaled to size 8.62pt on input line 246.
 Package microtype Info: Character `\quotesinglbase ' is missing
 (microtype)             in font `\TU/NanumGothic(0)/m/it/10'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -1717,7 +1734,7 @@ Package microtype Info: Character `\quotedblbase ' is missing
 (microtype)             in font `\TU/NanumGothic(0)/m/it/10'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/NanumGothic(0)/m/sl' will be
-(Font)              scaled to size 8.62pt on input line 327.
+(Font)              scaled to size 8.62pt on input line 367.
 Package microtype Info: Character `\quotesinglbase ' is missing
 (microtype)             in font `\TU/NanumGothic(0)/m/sl/10'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -1727,7 +1744,7 @@ Package microtype Info: Character `\quotedblbase ' is missing
 [4] [5] [6]
 Chapter 2.
 LaTeX Font Info:    Font shape `TU/NanumGothic(0)/m/it' will be
-(Font)              scaled to size 6.896pt on input line 591.
+(Font)              scaled to size 6.896pt on input line 631.
 Package microtype Info: Character `\quotesinglbase ' is missing
 (microtype)             in font `\TU/NanumGothic(0)/m/it/8'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -1735,7 +1752,7 @@ Package microtype Info: Character `\quotedblbase ' is missing
 (microtype)             in font `\TU/NanumGothic(0)/m/it/8'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/NanumGothic(0)/bx/n' will be
-(Font)              scaled to size 10.344pt on input line 607.
+(Font)              scaled to size 10.344pt on input line 647.
 File: ./Amazon_Fire.png Graphic file (type bmp)
 <./Amazon_Fire.png>
 
@@ -1750,51 +1767,64 @@ File: IR_files/figure-latex/plot2_pic-1.pdf Graphic file (type pdf)
 <use IR_files/figure-latex/plot2_pic-1.pdf>
 [8] [9]
 LaTeX Font Info:    Font shape `TU/NanumGothic(0)/bx/n' will be
-(Font)              scaled to size 8.62pt on input line 733.
+(Font)              scaled to size 8.62pt on input line 773.
+LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10> not available
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 814.
 File: ./Territory.png Graphic file (type bmp)
 <./Territory.png>
-[10] [11] [12] [13]
+
+Overfull \hbox (144.64294pt too wide) in paragraph at lines 818--819
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[10]
+Underfull \vbox (badness 5203) has occurred while \output is active []
+
+[11] [12] [13]
 LaTeX Font Info:    Font shape `TU/NanumGothic(0)/m/n' will be
-(Font)              scaled to size 10.34396pt on input line 1189.
+(Font)              scaled to size 10.34396pt on input line 1231.
 [14] [15] [16]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 1546.
+(Font)              <14.4> on input line 1588.
 [17] [18] [19] [20
 
 ]
 Chapter 3.
-[21] [22
-
-]
+[21] [22] [23] [24] [25] [26] [27] [28]
 Chapter 4.
-[23] [24
+[29
+
+] [30
 
 ]
 Chapter 5.
-[25] [26
+[31] [32
 
 ]
 Chapter 6.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1911.
-[27]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1911.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2828.
+[33]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2828.
 (./IR.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1911.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1911.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 2828.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2828.
 
 Package rerunfilecheck Info: File `IR.out' has not changed.
-(rerunfilecheck)             Checksum: DD585D84DC8D1560CF45B22D4CA941F1.
+(rerunfilecheck)             Checksum: 88C108BC7AF03C0E577437C43BE62FC2.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 26109 strings out of 492962
- 451255 string characters out of 6136967
- 594852 words of memory out of 5000000
- 29857 multiletter control sequences out of 15000+600000
- 557157 words of font info for 77 fonts, out of 8000000 for 9000
+ 26592 strings out of 492962
+ 458497 string characters out of 6136967
+ 608795 words of memory out of 5000000
+ 30324 multiletter control sequences out of 15000+600000
+ 557173 words of font info for 79 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  51i,8n,126p,799b,2521s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on IR.pdf (27 pages).
+Output written on IR.pdf (33 pages).

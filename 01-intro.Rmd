@@ -1,4 +1,8 @@
-# Introduction {#intro}
+---
+output:
+  pdf_document: default
+---
+# Introduction{#intro}
 
 > 읽을 자료  
 
@@ -127,7 +131,9 @@ print(Plot2)
     + 이라크는 수니파, 시아파, 그리고 쿠르드족의 다양한 민족으로 구성된 국가이다.
     + [그림](http://www.globalsecurity.org/military/world/war/images/dist-kurdish.gif)을 참고.
 
-![민족과 국가가 반드시 일치하는 것은 아니다.](./Territory.png)
+```{r, plot_map, fig.pos='H'}
+knitr::include_graphics("./Territory.png")
+```
 
 그럼 여기서 주권(Sovereingty)의 논의로 넘어가보자.
 
@@ -409,7 +415,7 @@ Jack Snyder (이하 Snyder)는 이 짧은 페이퍼를 통하여 FLS와는 조�
     + 따라서 이들은 국제적으로 관념을 변화시킬 수 있는 영향력을 가진 이들, 초국가적 행위자들에 주목한다.
       + 이게 어디까지 가냐면, 9.11 이후에 이론적 설명으로 초국가적 구조에 영향을 미치는 자유주의적 인권 운동과 급진적 이슬람 운동 간의 대화를 통해서 관념이 공유되고 변화되면 충돌을 완화할 수 있을거라고 주장하는 데 까지 간다.
       
-### 정리하자면, 
+### 정리하자면
 
 Snyder는 IR의 이론적 전통에 대해 개관을 제시하고 있다.
 
